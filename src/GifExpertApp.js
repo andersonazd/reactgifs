@@ -1,3 +1,10 @@
+//como funciona: se crea un componente llamado GifExpertApp que tendrá dentro un componente para crear
+//una categoria y otro componente para mostrar imagenes dependiendo de las categorías. Se crea entonces un
+//hook state que tenga una categoría para mostrar y que obtenga más por medio del componente AddCateogry, mandandole la 
+//función setCategories y esperando un array con las nuevas categorias a mostrar.
+//en el componente para mostrar las categorías, se le envía al componente GifGrid una key con id para identificar los items
+// de este y un array con los datos de la categoria este devuelve un array con los datos procesados y mostrandose.
+
 import React, {useState} from 'react'
 import { AddCategory } from './components/AddCategory';
 import { GifGrid } from './components/GifGrid';
