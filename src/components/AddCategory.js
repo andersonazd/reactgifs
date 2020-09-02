@@ -33,6 +33,8 @@ export const AddCategory = ({setCategories}) => {
 
         <form onSubmit={ handleSubmit }>
         <input 
+        className="form-control"
+        placeholder="Categoría a mostrar :D"
         type="text"
         value={ inputValue}
         onChange={ handleInputChange }

@@ -16,7 +16,8 @@ const GifExpertApp = () => {
  
     return (
         <>
-            <h2>GifExpertApp</h2>
+            <h1 className="text-center">Bienvenido a tu buscador de Gifs</h1>
+            <h2 >Porfavor ingresa una categoria a mostrar</h2>
             <AddCategory setCategories={ setCategories}/>
             <hr />
             
